@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+name = "fastapi-application"
+version = "0.1.0"
+description = "basic_fastapi_setup"
+authors = ["Dennis Mattews <alttert@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standart"], version = "^0.30.0"}
+pydantic = {extras = ["email"], version = "^2.7.2"}
+pydantic-settings = "^2.2.1"
