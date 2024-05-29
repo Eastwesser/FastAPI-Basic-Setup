@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e111312c-97e1-47f0-9c9a-341ada506c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/db_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/fastapi_basic_setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastapi_basic_setup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +55,13 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/altte/OneDrive/Desktop/fastapi_basic_setup",
+    "last_opened_file_path": "C:/Program Files/Python310/python.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -118,7 +120,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716917821992</updated>
-      <workItem from="1716982804877" duration="754000" />
+      <workItem from="1716982804877" duration="3569000" />
+      <workItem from="1716986567472" duration="874000" />
+      <workItem from="1716987686660" duration="8902000" />
     </task>
     <servers />
   </component>
