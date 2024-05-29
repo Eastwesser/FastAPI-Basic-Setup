@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e111312c-97e1-47f0-9c9a-341ada506c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastapi-application/core/models/db_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fastapi_basic_setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastapi_basic_setup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi-application/.env-template" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fastapi-application/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +74,9 @@
       <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup" />
       <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup\fastapi-application" />
+      <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup" />
+      <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup\fastapi-application\core" />
     </key>
   </component>
   <component name="RunManager">
@@ -122,11 +122,14 @@
       <updated>1716917821992</updated>
       <workItem from="1716982804877" duration="3569000" />
       <workItem from="1716986567472" duration="874000" />
-      <workItem from="1716987686660" duration="8902000" />
+      <workItem from="1716987686660" duration="16348000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717015273603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
