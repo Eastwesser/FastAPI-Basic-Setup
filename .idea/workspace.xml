@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e111312c-97e1-47f0-9c9a-341ada506c86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/alembic/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
     &quot;assignee&quot;: &quot;Eastwesser&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Eastwesser/FastAPI-Basic-Setup.git",
-    "accountId": "47c7423c-c3e3-4253-9d60-e6b91c9a28c3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Eastwesser/FastAPI-Basic-Setup.git&quot;,
+    &quot;accountId&quot;: &quot;47c7423c-c3e3-4253-9d60-e6b91c9a28c3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -54,7 +55,7 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/altte/OneDrive/Desktop/fastapi_basic_setup/fastapi-application/utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/altte/OneDrive/Desktop/FastAPI-base-app-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -128,7 +129,10 @@
       <workItem from="1717049419431" duration="8769000" />
       <workItem from="1717177509870" duration="11095000" />
       <workItem from="1717236239874" duration="15439000" />
-      <workItem from="1717318381668" duration="4323000" />
+      <workItem from="1717318381668" duration="11729000" />
+      <workItem from="1717350965580" duration="808000" />
+      <workItem from="1717351910887" duration="320000" />
+      <workItem from="1717363702674" duration="2489000" />
     </task>
     <servers />
   </component>
@@ -136,6 +140,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717251796254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717351480222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
