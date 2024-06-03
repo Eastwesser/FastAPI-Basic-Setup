@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e111312c-97e1-47f0-9c9a-341ada506c86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/.env-template" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/.env-template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/core/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/utils/case_converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/utils/case_converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +55,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/altte/OneDrive/Desktop/FastAPI-base-app-master",
+    "last_opened_file_path": "C:/Users/altte/OneDrive/Desktop/fastapi_basic_setup/fastapi-application",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup\fastapi-application" />
       <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup\fastapi-application\utils" />
       <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup" />
     </key>
@@ -138,7 +135,7 @@
       <workItem from="1717351910887" duration="320000" />
       <workItem from="1717363702674" duration="2638000" />
       <workItem from="1717408750148" duration="1781000" />
-      <workItem from="1717413567615" duration="7721000" />
+      <workItem from="1717413567615" duration="12276000" />
     </task>
     <servers />
   </component>
@@ -147,6 +144,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/main_py$database.coverage" NAME="database Coverage Results" MODIFIED="1717415560074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastapi-application" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717351480222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717438699489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
