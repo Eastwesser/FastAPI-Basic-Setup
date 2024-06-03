@@ -1,16 +1,22 @@
-from sqlalchemy import Column, Integer, String, UniqueConstraint
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+)
 
-from .base import Base  # Assuming base.py contains the Base class
+from .base import Base
 
 
-class User(Base):
-    __tablename__ = 'users'
+class Donut(Base):
+    __tablename__ = 'donuts'
 
     id = Column(Integer, primary_key=True)
-    username = Column(String, unique=True)
-    foo = Column(Integer)
-    bar = Column(Integer)
+    donut = Column(String, unique=True)
+    description = Column(String)
 
-    __table_args__ = (
-        UniqueConstraint("foo", "bar"),
-    )
+    def __repr__(self):
+        return (
+            f"<Donut(id={self.id}, "
+            f"donut='{self.donut}', "
+            f"description='{self.description}')>"
+        )
