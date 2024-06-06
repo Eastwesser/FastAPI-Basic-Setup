@@ -6,4 +6,4 @@ __all__ = (
 
 from .db_helper import db_helper
 from .base import Base
-from .user import Donut
+from .model_donut import Donut

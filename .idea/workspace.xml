@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e111312c-97e1-47f0-9c9a-341ada506c86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fastapi-application/api/api_v1/api_v1_donuts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi-application/core/schemas/schemas_donut.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/api/api_v1/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/api/api_v1/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi-application/crud/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/crud/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/.env-template" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/.env-template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic/versions/2024_06_04_1424-c0f21a834493_create_donuts_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/alembic/versions/2024_06_04_1431-9fcc7894aa6f_create_donuts_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/api/api_v1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/api/api_v1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/api/api_v1/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/models/db_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/models/db_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/core/models/model_donut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/core/schemas/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/crud/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/crud/donuts_crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi-application/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi-application/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +69,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.FastAPI.executor": "Run",
-    "Python.database.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/altte/OneDrive/Desktop/fastapi_basic_setup/fastapi-application/main.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.FastAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/altte/OneDrive/Desktop/fastapi_basic_setup/fastapi-application/main.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\altte\OneDrive\Desktop\fastapi_basic_setup\fastapi-application" />
@@ -189,7 +208,19 @@
       <workItem from="1717413567615" duration="17654000" />
       <workItem from="1717491235973" duration="7104000" />
       <workItem from="1717504655615" duration="9276000" />
-      <workItem from="1717571856683" duration="3442000" />
+      <workItem from="1717571856683" duration="11915000" />
+      <workItem from="1717628334637" duration="862000" />
+      <workItem from="1717629223579" duration="2169000" />
+      <workItem from="1717631496271" duration="843000" />
+      <workItem from="1717660361917" duration="4371000" />
+      <workItem from="1717666502620" duration="1318000" />
+      <workItem from="1717667847601" duration="2961000" />
+      <workItem from="1717671187877" duration="8804000" />
+      <workItem from="1717682492693" duration="326000" />
+      <workItem from="1717682834409" duration="470000" />
+      <workItem from="1717683323319" duration="840000" />
+      <workItem from="1717684191008" duration="2537000" />
+      <workItem from="1717687394563" duration="3245000" />
     </task>
     <servers />
   </component>
@@ -209,7 +240,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/main_py$database.coverage" NAME="database Coverage Results" MODIFIED="1717415560074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fastapi-application" />
-    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717543206109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1717667369703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/main_py$FastAPI.coverage" NAME="FastAPI Coverage Results" MODIFIED="1717505533666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

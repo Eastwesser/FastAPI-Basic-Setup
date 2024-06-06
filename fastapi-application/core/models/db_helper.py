@@ -1,5 +1,9 @@
+import os
 from typing import AsyncGenerator
 
+from alembic import command
+from alembic.config import Config
+from dotenv import load_dotenv
 from sqlalchemy.ext.asyncio import (
     create_async_engine,
     AsyncEngine,
@@ -8,6 +12,9 @@ from sqlalchemy.ext.asyncio import (
 )
 
 from core.config import settings
+from core.models.base import Base  # Import Base from its module
+
+load_dotenv()
 
 
 class DatabaseHelper:
@@ -35,6 +42,17 @@ class DatabaseHelper:
 
     async def dispose(self) -> None:
         await self.engine.dispose()
+
+    async def connect(self) -> None:
+        alembic_ini_path = os.getenv("ALEMBIC_INI_PATH")
+        if not alembic_ini_path:
+            raise ValueError("ALEMBIC_INI_PATH environment variable not set")
+
+        async with self.engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
+
+            alembic_cfg = Config(alembic_ini_path)
+            command.upgrade(alembic_cfg, "head")
 
     async def session_getter(self) -> AsyncGenerator[AsyncSession, None]:
         async with self.session_factory() as session:

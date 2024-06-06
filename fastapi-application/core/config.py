@@ -1,6 +1,8 @@
+import os
+
 from dotenv import load_dotenv
 from pydantic import BaseModel, PostgresDsn
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings
 
 load_dotenv()
 
@@ -12,7 +14,7 @@ class RunConfig(BaseModel):
 
 class ApiV1Prefix(BaseModel):
     prefix: str = "/v1"
-    users: str = "/users"
+    donuts: str = "/donuts"
 
 
 class ApiPrefix(BaseModel):
@@ -36,18 +38,13 @@ class DatabaseConfig(BaseModel):
 
 
 class Settings(BaseSettings):
-    model_config = SettingsConfigDict(
-        env_file=(
-            ".env-template",
-            ".env",
-        ),
-        case_sensitive=False,
-        env_nested_delimiter="__",
-        env_prefix="APP_CONFIG__",
-    )
+    class Config:
+        extra = 'forbid'
+
+    alembic_ini_path: str = os.getenv("ALEMBIC_INI_PATH", "default_value.ini")  # Provide a default value
     run: RunConfig = RunConfig()
     api: ApiPrefix = ApiPrefix()
-    db: DatabaseConfig
+    db: DatabaseConfig = DatabaseConfig(url=os.getenv("DB_URL"))  # type: ignore # Use os.getenv directly
 
 
 settings = Settings()

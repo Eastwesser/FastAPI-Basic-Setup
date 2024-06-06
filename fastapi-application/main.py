@@ -11,6 +11,7 @@ from core.models import db_helper
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # startup
+    await db_helper.connect()
     yield
     # shutdown
     await db_helper.dispose()
@@ -21,6 +22,7 @@ main_app = FastAPI(
 )
 main_app.include_router(
     api_router,
+    prefix=settings.api.v1.donuts,
 )
 
 if __name__ == "__main__":

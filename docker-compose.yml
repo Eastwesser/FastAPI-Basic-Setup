@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 
 services:
   db:
@@ -7,8 +7,8 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: serval
-      POSTGRES_DB: serval
+      POSTGRES_DB: donserval_donut_db
     ports:
       - "5432:5432"
     volumes:
-      - ./serval.sql:/docker-entrypoint-initdb.d/serval.sql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql

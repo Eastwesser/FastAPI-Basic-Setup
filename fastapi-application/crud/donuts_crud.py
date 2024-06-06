@@ -1,13 +1,13 @@
 from typing import Sequence
 
+from core.schemas.schemas_donut import DonutCreate
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from core.models import Donut
-from core.schemas.user import UserCreate
 
 
-async def get_all_users(
+async def get_all_donuts(
         session: AsyncSession,
 ) -> Sequence[Donut]:
     stmt = select(Donut).order_by(Donut.id)
@@ -15,12 +15,11 @@ async def get_all_users(
     return result.scalars().all()
 
 
-async def create_user(
+async def create_donut(
         session: AsyncSession,
-        user_create: UserCreate,
+        donut_create: DonutCreate,
 ) -> Donut:
-    user = Donut(**user_create.model_dump())
-    session.add(user)
+    donut = Donut(**donut_create.model_dump())
+    session.add(donut)
     await session.commit()
-    # await session.refresh(user)
-    return user
+    return donut
